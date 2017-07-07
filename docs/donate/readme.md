@@ -1,5 +1,13 @@
 ## Fired Up Donate
 
+### Frontends
+
+* tba
+
+### Backends
+
+* [Stripe](/fired-up/stripe)
+
 ### `.env` var naming
 
 ```
