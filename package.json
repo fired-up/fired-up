@@ -4,7 +4,7 @@
   "description": "Fired Up",
   "main": "index.js",
   "scripts": {
-    "dev": "next",
+    "dev": "node index.js",
     "build": "next build",
     "start": "next start"
   },
@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/fired-up/fired-up#readme",
   "dependencies": {
+    "express": "^4.16.2",
     "next": "^4.1.4",
+    "next-routes": "^1.1.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   }
