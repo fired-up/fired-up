@@ -1,11 +1,21 @@
+import React, { Component } from 'react';
 import FiredUpSignup from '../../packages/fired-up-signups';
 
-export default () => (
+class SignupSingle extends Component {
+    constructor() {
+        super();
+    }
+    
 
-    <div>
-        Single Signup
+    render() {
+        return (
+            <div>
+                Single Signup
+    
+                <FiredUpSignup />
+           </div>
+        );
+    }
+}
 
-        <FiredUpSignup />
-    </div>
-
-)
+export default SignupSingle;
