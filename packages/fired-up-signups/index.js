@@ -16,9 +16,9 @@ class FiredUpSignup extends Component {
             .ref('form-submissions')
             .push({
                 fields: {
-                    email: this.email.val()
+                    email: this.email.value
                 },
-                created_at: Firebase.database.FieldValue.serverTimestamp(),
+                created_at: Firebase.database.ServerValue.TIMESTAMP
               });      
     }
 
