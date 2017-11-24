@@ -1,2 +1,4 @@
-# fired-up
-Parent Project
+Fired Up
+
+* `yarn`
+* `yarn dev`
