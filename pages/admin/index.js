@@ -1,6 +1,9 @@
+import Layout from '../../layouts/admin';
 import Griddle from 'griddle-react';
 import React, { Component } from 'react';
 import Firebase from '../../library/firebase';
+
+import flatten from 'flat';
 
 class AdminIndex extends Component {
     constructor() {
@@ -12,6 +15,8 @@ class AdminIndex extends Component {
     }
 
     componentDidMount() {
+        console.log('loading');
+        
         Firebase
             .database()
             .ref('form-submissions')
@@ -19,10 +24,14 @@ class AdminIndex extends Component {
                 let data = snapshot.val();
                 let signups = [];
 
+                console.log( data );
+
                 for ( var i in data ) {
-                    signups.push(data[i]);
+                    signups.push(flatten(data[i], { delimiter: '_' }));
                 }
 
+                console.log( signups );
+                
                 this.setState({
                     signups
                 })
@@ -32,9 +41,8 @@ class AdminIndex extends Component {
 
     renderSignups() {
         if ( this.state.signups.length > 0 ) {
-            console.log(this.state.signups);
             return (
-                <Griddle data={this.state.signups} />           
+                <Griddle data={this.state.signups} styleConfig={{ classNames: { Table: "table" }}} />           
             )
         }
         
@@ -43,11 +51,17 @@ class AdminIndex extends Component {
 
     render() {
         return (
-            <div>
-                <h1>Signups</h1>
+            <Layout>
+                 <div className="container">
+                     <div className="row">
+                        <div className="col">                
+                            <h1>Signups</h1>
 
-                {this.renderSignups()}
-            </div>
+                            {this.renderSignups()}
+                        </div>
+                    </div>
+                </div>
+            </Layout>
         )
     }
      
