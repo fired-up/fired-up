@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+</head>
+
+<style>
+  .invalid-feedback {
+    display: block;
+  }
+
+  .widget-container {
+    margin: 3rem auto 0;
+    max-width: 700px;
+  }
+
+  .firechat {
+    height: 500px;
+  }
+
+  .fc__chat-body {
+    height: 100%;
+  }
+</style>
+
+<body>
+  <script>
+    window.FIRED_UP_SUBMITTED = function () {
+      console.log('Done!');
+    };
+  </script>
+
+  <div class="widget-container">
+    <div id="root" data-fired-up-widget="form" data-form-id="7WXHWpZSDUgofsxSCiri" data-form-fields='[
+  [
+    {
+      "name": "given_name",
+      "placeholder": "First Name",
+      "label": "your first name",
+      "cols": "6",
+      "maxLength": "10"
+    },
+    {
+      "name": "family_name",
+      "label": "your last name",
+      "placeholder": "Last Name",
+      "cols": "6",
+      "maxLength": "0"
+    }
+  ],
+  [
+    {
+      "type": "email",
+      "required": true,
+      "label": "your email",
+      "name": "email_address",
+      "placeholder": "Email Address",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "label": "Street Address",
+      "name": "address_line1",
+      "placeholder": "Street Address",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "label": "City",
+      "name": "locality",
+      "placeholder": "City",
+      "cols": "4"
+    },
+    {
+      "label": "State",
+      "name": "region",
+      "placeholder": "State Abbreviation",
+      "cols": "3"
+    },
+    {
+      "required": true,
+      "label": "Zip Code",
+      "name": "postal_code",
+      "placeholder": "Zip Code",
+      "cols": "3"
+    }
+  ]
+]
+' data-form-submit-label="Submit" data-lang="en" data-room-id="test"></div>
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

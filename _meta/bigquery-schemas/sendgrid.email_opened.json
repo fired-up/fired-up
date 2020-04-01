@@ -1,0 +1,79 @@
+{
+  "creationTime": "1523575721567",
+  "etag": "l9QHnSZlvSAfGyywrcHojQ==",
+  "id": "fired-up-dev:Sendgrid.emails_opened",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561398587175",
+  "location": "US",
+  "numBytes": "20873794306",
+  "numLongTermBytes": "0",
+  "numRows": "139336590",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "sg_event_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "trilogy_event_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "event_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ip",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sg_campaign_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sg_campaign_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "trilogy_email_id",
+        "type": "STRING"
+      },
+      {
+        "name": "useragent",
+        "type": "STRING"
+      },
+      {
+        "name": "category",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_message_id",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/Sendgrid/tables/emails_opened",
+  "streamingBuffer": {
+    "estimatedBytes": "157079",
+    "estimatedRows": "550",
+    "oldestEntryTime": "1561397940000"
+  },
+  "tableReference": {
+    "datasetId": "Sendgrid",
+    "projectId": "fired-up-dev",
+    "tableId": "emails_opened"
+  },
+  "type": "TABLE"
+}

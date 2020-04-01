@@ -1,0 +1,5 @@
+{
+  "firestore_collection": "actblue_contributions",
+  "pubsub_topic": "actblue-webhooks",
+  "auth_password": ""
+}

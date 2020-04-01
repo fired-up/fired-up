@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="22px" viewBox="0 0 15 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>icons / icon-previous-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="icons-/-icon-previous-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M3.67216011,0 C3.79944468,0 3.90127235,0.0509138316 4.00310001,0.127284579 L14.5422632,10.6664477 C14.7204616,10.8446461 14.7204616,11.1501291 14.5422632,11.3283275 L4.00310001,21.8674907 C3.8249016,22.0456891 3.51941861,22.0456891 3.3412202,21.8674907 L0.133648808,18.6599193 C-0.0445496027,18.4817209 -0.0445496027,18.1762379 0.133648808,17.9980395 L7.13430066,10.9973876 L0.133648808,3.99673578 C-0.0445496027,3.81853737 -0.0445496027,3.51305438 0.133648808,3.33485597 L3.3412202,0.127284579 C3.44304786,0.0509138316 3.54487553,0 3.67216011,0 Z" id="next" fill="#4A4A4A" transform="translate(7.337956, 11.000570) scale(-1, 1) translate(-7.337956, -11.000570) "></path>
+    </g>
+</svg>

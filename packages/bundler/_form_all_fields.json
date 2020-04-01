@@ -1,0 +1,111 @@
+[
+  [
+    {
+      "name": "given_name",
+      "placeholder": "First Name",
+      "label": "your first name",
+      "cols": "6"
+    },
+    {
+      "name": "family_name",
+      "label": "your last name",
+      "placeholder": "Last Name",
+      "cols": "6"
+    }
+  ],
+  [
+    {
+      "type": "email",
+      "required": true,
+      "label": "your email",
+      "name": "email_address",
+      "placeholder": "Email Address",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "required": true,
+      "label": "your zip code",
+      "name": "postal_code",
+      "placeholder": "Zip Code",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "name": "phone_number",
+      "placeholder": "Phone Number",
+      "label": "your phone number",
+      "type": "tel",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "name": "checkbox",
+      "placeholder": "checkbox",
+      "label": "Checkbox 1",
+      "type": "checkbox",
+      "required": false,
+      "cols": "12",
+      "values": false
+    },
+    {
+      "name": "checkbox2",
+      "placeholder": "Checkbox 2",
+      "label": "Checkbox 2",
+      "type": "checkbox",
+      "required": false,
+      "cols": "12",
+      "values": false
+    }
+  ],
+  [
+    {
+      "name": "do_you_believe",
+      "placeholder": "",
+      "label": "Do you believe that all Americans deserve the right to learn?",
+      "type": "select",
+      "cols": "12",
+      "values": [
+        {
+          "value": "Yes",
+          "label": "Yes"
+        },
+        {
+          "value": "No",
+          "label": "No"
+        },
+        {
+          "value": "Maybe",
+          "label": "Maybe"
+        }
+      ]
+    }
+  ],
+  [
+    {
+      "name": "ways-to-reach",
+      "name_orig": "Ways to Reach",
+      "label": "How can we reach you? (check all that apply)",
+      "type": "checkbox_group",
+      "required": false,
+      "cols": "12",
+      "values": [
+        {
+          "label": "Phone",
+          "value": "ways-to-reach_phone"
+        },
+        {
+          "label": "Text Message (SMS)",
+          "value": "ways-to-reach_sms"
+        },
+        {
+          "label": "Email",
+          "value": "ways-to-reach_email"
+        }
+      ]
+    }
+  ]
+]

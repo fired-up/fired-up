@@ -1,0 +1,44 @@
+.stylized-form {
+  position: relative;
+
+  .control-label {
+  }
+
+  .form-control {
+    border-radius: 0;
+    padding: 15px 10px;
+    height: auto;
+  }
+
+  select.form-control:not([size]):not([multiple]) {
+    height: calc(2.25rem + 2px + 18px);
+  }
+
+  &.no-border input.form-control {
+    border: none;
+  }
+
+  .stylized-field-group {
+    position: relative;
+  }
+
+  .validation-message {
+    font-size: 12px;
+  }
+
+  .form-check {
+    user-select: none;
+  }
+
+  .form-check-input {
+    margin-top: 0.1rem;
+  }
+
+  .form-check.is-invalid {
+    color: $color-error;
+
+    ~ .invalid-feedback {
+      display: block;
+    }
+  }
+}

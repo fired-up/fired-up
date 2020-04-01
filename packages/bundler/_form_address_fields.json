@@ -1,0 +1,55 @@
+[
+  [
+    {
+      "name": "given_name",
+      "placeholder": "First Name",
+      "label": "your first name",
+      "cols": "6"
+    },
+    {
+      "name": "family_name",
+      "label": "your last name",
+      "placeholder": "Last Name",
+      "cols": "6"
+    }
+  ],
+  [
+    {
+      "type": "email",
+      "required": true,
+      "label": "your email",
+      "name": "email_address",
+      "placeholder": "Email Address",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "label": "Street Address",
+      "name": "address_line1",
+      "placeholder": "Street Address",
+      "cols": "12"
+    }
+  ],
+  [
+    {
+      "label": "City",
+      "name": "locality",
+      "placeholder": "City",
+      "cols": "4"
+    },
+    {
+      "label": "State",
+      "name": "region",
+      "placeholder": "State Abbreviation",
+      "cols": "3"
+    },
+    {
+      "required": true,
+      "label": "Zip Code",
+      "name": "postal_code",
+      "placeholder": "Zip Code",
+      "cols": "3"
+    }
+  ]
+]

@@ -1,0 +1,25 @@
+{
+  "name": "fired-up-importer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "encrypt:all": "gcloud kms encrypt --ciphertext-file=../../key-firedup-prod.json.enc --plaintext-file=../../key-firedup-prod.json --location=us --keyring=firedup-prod-keyring --key=firedup-prod-key --project=firedup-prod && gcloud kms encrypt --ciphertext-file=../../key-firedup-dev.json.enc --plaintext-file=../../key-firedup-dev.json --location=us --keyring=firedup-dev-keyring --key=firedup-dev-key --project=firedup-dev",
+    "encrypt:prod": "gcloud kms encrypt --ciphertext-file=../../key-firedup-prod.json.enc --plaintext-file=../../key-firedup-prod.json --location=us --keyring=firedup-prod-keyring --key=firedup-prod-key --project=firedup-prod",
+    "encrypt:dev": "gcloud kms encrypt --ciphertext-file=../../key-firedup-dev.json.enc --plaintext-file=../../key-firedup-dev.json --location=us --keyring=firedup-dev-keyring --key=firedup-dev-key --project=firedup-dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "decrypt": "gcloud kms decrypt --ciphertext-file=../../key-firedup-prod.json.enc --plaintext-file=../../key-firedup-prod.json --location=us --keyring=firedup-prod-keyring --key=firedup-prod-key --project=firedup-prod && gcloud kms decrypt --ciphertext-file=../../key-firedup-dev.json.enc --plaintext-file=../../key-firedup-dev.json --location=us --keyring=firedup-dev-keyring --key=firedup-dev-key --project=firedup-dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "@google-cloud/tasks": "1.2.0",
+    "async": "3.0.1",
+    "csv-parse": "^4.3.0",
+    "firebase-admin": "^6.5.0",
+    "lodash": "^4.17.11",
+    "moment": "2.24.0",
+    "yargs": "^12.0.5"
+  }
+}

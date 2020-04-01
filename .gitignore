@@ -1,5 +1,32 @@
+# Development Things
+.env
+.env.*
 .next
-.DS_Store
+.cache
+dev/
+dist/
 node_modules
+functions/lib
+functions/src/packages
+functions/coverage
+functions/.runtimeconfig.json
+functions/.runtimeconfig.dev.json
 
-.firebase-debug.log
+# IAM keys
+service-account.json
+
+# Log Files
+*.log
+
+# Use Yarn
+package-lock.json
+
+# Generated in Travis, use to squelch git logs about that
+bundles
+.DS_Store
+
+# Firestore config specific to your environment
+.firebaserc
+
+# Include things
+!.env.sample

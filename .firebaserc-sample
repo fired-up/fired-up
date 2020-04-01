@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "fired-up-dev",
+    "dev": "fired-up-dev",
+    "prod": "fired-up-prod"
+  }
+}

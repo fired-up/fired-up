@@ -1,0 +1,6 @@
+{
+  "bigquery_table": "nps_responses",
+  "firestore_collection": "nps_responses",
+  "redirect_link": "",
+  "redirect_function": ""
+}

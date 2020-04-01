@@ -1,0 +1,18 @@
+@import '_variables.scss';
+
+.edit-recruitment-page {
+  width: 100%;
+  max-width: 500px;
+
+  form {
+    width: 100%;
+  }
+}
+
+.edit-user-modal {
+  min-width: 500px;
+
+  form {
+    width: 100%;
+  }
+}

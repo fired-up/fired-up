@@ -1,0 +1,25 @@
+@import '_variables.scss';
+
+.address-autocomplete {
+  display: flex;
+  align-items: center;
+  position: relative;
+  text-align: left;
+
+  .fa-search {
+    position: absolute;
+    left: 1.25rem;
+    color: #AEAEAE;
+  }
+
+  input.form-control {
+    padding: 25px 3.5rem;
+    border-color: #E1E1E1;
+    font-size: 18px;
+    line-height: 1;
+
+    &.has-error {
+      border-color: $color-error;
+    }
+  }
+}

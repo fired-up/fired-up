@@ -1,0 +1,71 @@
+{
+  "creationTime": "1550608451650",
+  "etag": "q2bN23Q1pJfhx5NraUirAw==",
+  "id": "fired-up-dev:Sendgrid.emails_group_unsubscribed",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561395099755",
+  "location": "US",
+  "numBytes": "58778937",
+  "numLongTermBytes": "0",
+  "numRows": "217980",
+  "schema": {
+    "fields": [
+      {
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_event_id",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_message_id",
+        "type": "STRING"
+      },
+      {
+        "name": "event_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "ip",
+        "type": "STRING"
+      },
+      {
+        "name": "category",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_name",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_id",
+        "type": "STRING"
+      },
+      {
+        "name": "asm_group_id",
+        "type": "STRING"
+      },
+      {
+        "name": "type",
+        "type": "STRING"
+      },
+      {
+        "name": "useragent",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/Sendgrid/tables/emails_group_unsubscribed",
+  "streamingBuffer": {
+    "estimatedBytes": "3713",
+    "estimatedRows": "14",
+    "oldestEntryTime": "1561394460000"
+  },
+  "tableReference": {
+    "datasetId": "Sendgrid",
+    "projectId": "fired-up-dev",
+    "tableId": "emails_group_unsubscribed"
+  },
+  "type": "TABLE"
+}

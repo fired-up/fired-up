@@ -1,0 +1,261 @@
+{
+  "creationTime": "1549639900681",
+  "etag": "GeKQT4AdCo+e6pM/7erPrA==",
+  "id": "fired-up-dev:firedup.people",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561386015807",
+  "location": "US",
+  "numBytes": "7641176379",
+  "numLongTermBytes": "0",
+  "numRows": "32190386",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "given_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "family_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "locality",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "region",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "postal_code",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "created_at",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "address_line1",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "congressional_district",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "country",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "updated_at",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "employer",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "occupation",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "honorific_suffix",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "honorific_prefix",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_code_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_source_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_medium_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_campaign_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_content_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_term_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_source_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_medium_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_campaign_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_content_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_term_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_code_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_first_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_last_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "firebase_user_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "trilogy_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_mobile",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_sms_capable",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "action_code_first",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "action_code_last",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "action_first_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "action_last_time",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "region_abbr",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "address_line2",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_number",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_extension",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_number_type",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "people_algo",
+        "type": "INTEGER"
+      },
+      {
+        "name": "person_id",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/firedup/tables/people",
+  "streamingBuffer": {
+    "estimatedBytes": "134430",
+    "estimatedRows": "473",
+    "oldestEntryTime": "1561385400000"
+  },
+  "tableReference": {
+    "datasetId": "firedup",
+    "projectId": "fired-up-dev",
+    "tableId": "people"
+  },
+  "type": "TABLE"
+}

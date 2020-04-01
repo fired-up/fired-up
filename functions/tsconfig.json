@@ -1,0 +1,16 @@
+{
+  "include": ["src"],
+  "compileOnSave": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "lib",
+    "target": "es6",
+    "sourceMap": true,
+    "module": "commonjs",
+    "lib": ["es6", "es2016"],
+    "resolveJsonModule": true,
+    "noImplicitReturns": true,
+    "allowSyntheticDefaultImports": true,
+    "typeRoots": ["./node_modules/@types", "./typings"]
+  }
+}

@@ -1,0 +1,43 @@
+$transition-duration: 0.3s;
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+) !default;
+
+$grid-gutter-width: 30px !default;
+
+@import 'bootstrap/scss/mixins/_breakpoints.scss';
+
+$color-white: #FFFFFF;
+$color-black-off: #3e3e3e;
+$color-gray-light: #F1F1F2;
+$color-gray-extra-light: #f9f9f9;
+$color-yellow: #ffe059;
+$color-blue: #1259A0;
+$color-blue-2: #3B5998;
+$color-blue-3: #006DDB;
+$color-red: #CC3327;
+$color-error: #dc3545;
+
+$color-bg: $color-gray-light;
+$color-text: $color-black-off;
+$color-text-light: #6E6E6E;
+$color-text-extra-light: #B2B2B2;
+
+$color-fb: #3B5998;
+$color-tw: #1DA1F2;
+
+$type-sans: "neuzeit-grotesk", Helvetica, sans-serif;
+$type-serif: 'adriane', georgia, Times, serif;
+
+$box-border-radius: 0 0 8px 0 rgba(0, 0, 0, 0.1);
+
+// Shared UI
+$header-height: 75px;
+$admin-sidebar-width: 300px;
+$admin-sidebar-width-sm: 60px;
+$admin-sidebar-title-height: 75px;

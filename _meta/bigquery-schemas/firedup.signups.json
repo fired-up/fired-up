@@ -1,0 +1,246 @@
+{
+  "creationTime": "1527904261511",
+  "etag": "bxKFubt7+FkEchxR1PzvZw==",
+  "id": "fired-up-dev:firedup.signups_refreshed",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561386971547",
+  "location": "US",
+  "numBytes": "5139268416",
+  "numLongTermBytes": "0",
+  "numRows": "17662687",
+  "schema": {
+    "fields": [
+      {
+        "mode": "REQUIRED",
+        "name": "created_at",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "form_type",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "form_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "creator",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "signup_url",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "given_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "family_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "locality",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "region",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "postal_code",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "address_line1",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_mobile",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "phone_number_sms_capable",
+        "type": "BOOLEAN"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "latitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "longitude",
+        "type": "FLOAT"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_code",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_source",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_medium",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_content",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_term",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "source_utm_campaign",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "importer_batch_id",
+        "type": "INTEGER"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "address_line2",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "importer_row_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "importer_import_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "importer_filename",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "hygiene_email_validity",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "value",
+            "type": "STRING"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "hygiene_metadata",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "hygiene_service",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "typeform_token",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ip_address",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ip_address_latitude",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ip_address_longitude",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "user_agent",
+        "type": "STRING"
+      },
+      {
+        "name": "glcid",
+        "type": "STRING"
+      },
+      {
+        "name": "fbclid",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "name": "key",
+            "type": "STRING"
+          },
+          {
+            "name": "value",
+            "type": "STRING"
+          }
+        ],
+        "mode": "REPEATED",
+        "name": "custom_fields",
+        "type": "RECORD"
+      },
+      {
+        "name": "gclid",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/firedup/tables/signups_refreshed",
+  "streamingBuffer": {
+    "estimatedBytes": "149246",
+    "estimatedRows": "179",
+    "oldestEntryTime": "1561386300000"
+  },
+  "tableReference": {
+    "datasetId": "firedup",
+    "projectId": "fired-up-dev",
+    "tableId": "signups_refreshed"
+  },
+  "type": "TABLE"
+}

@@ -1,35 +1,41 @@
 {
-  "name": "fired-up",
-  "version": "0.1.0",
-  "description": "Fired Up",
-  "main": "index.js",
-  "author": "Patronage",
-  "license": "MIT",
-  "homepage": "https://github.com/fired-up/fired-up#readme",
   "private": true,
+  "name": "fired-up",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=10.0"
+  },
   "scripts": {
-    "dev": "node index.js",
-    "build": "next build",
-    "start": "next start"
+    "format": "prettier --write **/*.+(js|ts|tsx|json)",
+    "deploy:dev": "firebase use dev && sh _build/packages-install-functions.sh && firebase deploy",
+    "deploy:prod": "firebase use prod && sh _build/packages-install-functions.sh && firebase deploy"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fired-up/fired-up.git"
-  },
-  "bugs": {
-    "url": "https://github.com/fired-up/fired-up/issues"
+  "lint-staged": {
+    "*.js": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.tsx": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.json": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "workspaces": [
     "packages/*"
   ],
   "dependencies": {
-    "dotenv": "^4.0.0",
-    "express": "^4.16.2",
-    "flat": "^4.0.0",
-    "griddle-react": "^1.9.0",
-    "next": "^4.1.4",
-    "next-routes": "^1.1.0",
-    "react": "^16.1.1",
-    "react-dom": "^16.1.1"
+    "chalk": "2.4.2",
+    "fs-extra": "8.0.1",
+    "kickbox": "2.0.4",
+    "rimraf": "2.6.3",
+    "simple-git": "1.116.0"
   }
 }

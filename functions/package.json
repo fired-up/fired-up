@@ -1,18 +1,68 @@
 {
   "name": "functions",
   "description": "Cloud Functions for Firebase",
+  "engines": {
+    "node": "8"
+  },
+  "main": "lib/index.js",
+  "private": true,
   "scripts": {
+    "build": "tsc",
+    "deploy:dev": "firebase use dev && firebase deploy --only functions",
+    "deploy:prod": "node etc/confirm && firebase use prod && firebase deploy --only functions && firebase use dev",
+    "emulate": "npm run build && firebase functions:shell",
+    "getconfig:dev": "firebase use dev && firebase functions:config:get > .runtimeconfig.dev.json",
+    "getconfig:prod": "firebase use prod && firebase functions:config:get > .runtimeconfig.json",
+    "logs": "firebase functions:log",
     "serve": "firebase serve --only functions",
-    "shell": "firebase experimental:functions:shell",
+    "setconfig:dev": "firebase use dev && firebase functions:config:set --",
     "start": "npm run shell",
-    "deploy": "firebase deploy --only functions",
-    "logs": "firebase functions:log"
+    "test": "jest --no-watchman --verbose --coverage",
+    "test-ci": "jest --no-watchman --ci --silent"
   },
   "dependencies": {
+    "@google-cloud/bigquery": "^2.0.6",
+    "@google-cloud/pubsub": "^0.22.2",
+    "@google-cloud/storage": "^2.3.4",
+    "@sendgrid/client": "^6.2.1",
+    "@sendgrid/mail": "^6.2.1",
+    "async": "^2.6.0",
+    "axios": "^0.19.0",
+    "babel-jest": "^22.1.0",
+    "babel-preset-env": "^1.7.0",
+    "buffer": "^5.1.0",
+    "bunyan": "^1.8.12",
     "cors": "^2.8.4",
-    "firebase-admin": "~5.4.2",
-    "firebase-functions": "^0.7.1",
-    "request": "^2.83.0"
+    "date-fns": "^1.29.0",
+    "dnscache": "^1.0.1",
+    "expect-firestore": "^1.0.1",
+    "firebase-admin": "^6.5.0",
+    "firebase-functions": "3.0.1",
+    "google-gax": "^0.16.1",
+    "google-libphonenumber": "^3.2.2",
+    "hashids": "^1.1.4",
+    "html2plaintext": "^2.0.1",
+    "intercom-client": "^2.10.2",
+    "jest": "^22.1.4",
+    "kickbox": "^2.0.4",
+    "lodash": "^4.17.11",
+    "moment": "^2.20.1",
+    "randomatic": "^3.1.1",
+    "slug": "^0.9.3",
+    "tslint": "^5.9.1",
+    "typescript": "^3.2.2",
+    "useragent": "^2.3.0",
+    "x-hub-signature": "^1.2.0"
   },
-  "private": true
+  "jest": {
+    "testURL": "http://localhost/",
+    "transform": {
+      "^.+\\.jsx$": "babel-jest",
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.106",
+    "exit": "^0.1.2"
+  }
 }

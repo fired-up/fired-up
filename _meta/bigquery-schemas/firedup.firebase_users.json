@@ -1,0 +1,43 @@
+{
+  "creationTime": "1540494361545",
+  "etag": "5N4P+NGG9R04tkdd/zraiA==",
+  "id": "fired-up-dev:firedup.firebase_users",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561386811325",
+  "location": "US",
+  "numBytes": "8549784",
+  "numLongTermBytes": "0",
+  "numRows": "142056",
+  "schema": {
+    "fields": [
+      {
+        "name": "firebase_id",
+        "type": "STRING"
+      },
+      {
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "name": "last_login_at",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "referrer_id",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/firedup/tables/firebase_users",
+  "streamingBuffer": {
+    "estimatedBytes": "118",
+    "estimatedRows": "2",
+    "oldestEntryTime": "1561353300000"
+  },
+  "tableReference": {
+    "datasetId": "firedup",
+    "projectId": "fired-up-dev",
+    "tableId": "firebase_users"
+  },
+  "type": "TABLE"
+}

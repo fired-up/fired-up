@@ -1,0 +1,25 @@
+{
+  "name": "fired-up-bundler",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "parcel index.html --port 3000",
+    "build:dev": "rm -rf dist && NODE_ENV=development REACT_APP_WORDPRESS_MOUNT=true parcel build index.js --public-url='' --out-file fired-up-bundle.js --no-source-maps --no-cache",
+    "build:prod": "rm -rf dist && NODE_ENV=production parcel build index.js --out-file fired-up-bundle.js --no-cache --no-source-maps"
+  },
+  "dependencies": {
+    "core-js": "3.1.4",
+    "custom-event-polyfill": "1.0.7",
+    "lodash": "4.17.11",
+    "next": "9.1.7",
+    "parcel-bundler": "1.12.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-hot-loader": "4.12.16",
+    "regenerator-runtime": "0.13.3"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@zeit/next-typescript": "1.1.1",
+    "parcel-plugin-bundle-visualiser": "1.2.0"
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "creationTime": "1550608279253",
+  "etag": "9u/v4aqvpubE2TQK2wQnZw==",
+  "id": "fired-up-dev:Sendgrid.emails_unsent",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561394599526",
+  "location": "US",
+  "numBytes": "10408465484",
+  "numLongTermBytes": "0",
+  "numRows": "24064286",
+  "schema": {
+    "fields": [
+      {
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_event_id",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_message_id",
+        "type": "STRING"
+      },
+      {
+        "name": "event_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "name": "ip",
+        "type": "STRING"
+      },
+      {
+        "name": "category",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_name",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_id",
+        "type": "STRING"
+      },
+      {
+        "name": "reason",
+        "type": "STRING"
+      },
+      {
+        "name": "status",
+        "type": "STRING"
+      },
+      {
+        "name": "response",
+        "type": "STRING"
+      },
+      {
+        "name": "attempt",
+        "type": "STRING"
+      },
+      {
+        "name": "type",
+        "type": "STRING"
+      },
+      {
+        "name": "smtp_id",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_version",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_campaign_split_id",
+        "type": "STRING"
+      },
+      {
+        "name": "event",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/Sendgrid/tables/emails_unsent",
+  "streamingBuffer": {
+    "estimatedBytes": "371",
+    "estimatedRows": "1",
+    "oldestEntryTime": "1561394640000"
+  },
+  "tableReference": {
+    "datasetId": "Sendgrid",
+    "projectId": "fired-up-dev",
+    "tableId": "emails_unsent"
+  },
+  "type": "TABLE"
+}

@@ -1,0 +1,68 @@
+[
+  [
+    {
+      "name": "given_name",
+      "placeholder": "First Name",
+      "label": "your first name",
+      "cols": "6"
+    },
+    {
+      "name": "family_name",
+      "label": "your last name",
+      "placeholder": "Last Name",
+      "cols": "6"
+    }
+  ],
+  [
+    {
+      "type": "email",
+      "required": true,
+      "label": "your email",
+      "name": "email_address",
+      "placeholder": "Email Address",
+      "cols": "7"
+    },
+    {
+      "required": true,
+      "label": "your zip code",
+      "name": "postal_code",
+      "placeholder": "Zip Code",
+      "cols": "5"
+    }
+  ],
+  [
+    {
+      "name": "contact_topic",
+      "placeholder": "Please select a category",
+      "label": "Please select a category",
+      "type": "select",
+      "cols": "12",
+      "values": [{
+        "value": "donations",
+        "label": "Donations"
+      }, {
+        "value": "events",
+        "label": "Events"
+      }, {
+        "value": "press",
+        "label": "Press"
+      }, {
+        "value": "merchandise",
+        "label": "Merch"
+      }, {
+        "value": "volunteering",
+        "label": "Volunteer"
+      }, {
+        "value": "info",
+        "label": "Info"
+      }]
+    }
+  ], [
+    {
+      "name": "contact_message",
+      "placeholder": "Your Message",
+      "label": "Your Message",
+      "type": "textarea",
+      "cols": "12"
+    }
+]]

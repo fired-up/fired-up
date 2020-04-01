@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="44px" viewBox="0 0 44 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / social / icon-google</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M1.997,0 L38.003,0 C39.108,0 40,0.894 40,1.997 L40,38.003 C40,39.108 39.106,40 38.003,40 L1.997,40 C0.892,40 0,39.106 0,38.003 L0,1.997 C0,0.892 0.894,0 1.997,0 Z" id="path-1"></path>
+        <path d="M8.64,2.205 C8.64,4.945 7.658,7.253 5.956,8.82 L3.048,8.82 L3.048,6.561 C4.001,5.923 4.635,4.97 4.844,3.845 L0,3.845 L0,0.364 L8.476,0.364 C8.583,0.953 8.64,1.566 8.64,2.205 Z" id="path-3"></path>
+        <path d="M9,8 C5.482,8 2.438,5.983 0.957,3.042 L0.957,0.71 L3.964,0.71 C4.672,2.837 6.656,4.42 9,4.42 C10.211,4.42 11.242,4.101 12.048,3.561 L14.956,5.82 C13.467,7.194 11.43,8 9,8 Z" id="path-5"></path>
+        <path d="M3.964,6.71 L0.957,9.042 C0.348,7.827 0,6.452 0,5 C0,3.548 0.348,2.173 0.957,0.958 L3.964,0.958 L3.964,3.29 C3.784,3.83 3.682,4.407 3.682,5 C3.682,5.593 3.784,6.17 3.964,6.71 Z" id="path-7"></path>
+        <path d="M9,3.58 C6.656,3.58 4.672,5.163 3.964,7.29 L0.957,4.958 C2.438,2.017 5.482,0 9,0 C11.426,0 13.463,0.892 15.022,2.344 L12.44,4.925 C11.508,4.034 10.321,3.58 9,3.58 Z" id="path-9"></path>
+    </defs>
+    <g id="Icons-/-social-/-icon-google" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <image id="Image-1" x="0" y="0" width="44" height="44" xlink:href="data:image/png;base64,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"></image>
+            <g id="Group-4" transform="translate(3.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-3"></g>
+                <polygon id="Fill-2" fill="#FFFFFF" mask="url(#mask-2)" points="-0.06 40 40.02 40 40.02 -0.08 -0.06 -0.08"></polygon>
+            </g>
+            <g id="Group-7" transform="translate(23.000000, 20.000000)">
+                <mask id="mask-4" fill="white">
+                    <use xlink:href="#path-3"></use>
+                </mask>
+                <g id="Clip-6"></g>
+                <polygon id="Fill-5" fill="#318AF5" mask="url(#mask-4)" points="-0.02 8.92 8.74 8.92 8.74 0.28 -0.02 0.28"></polygon>
+            </g>
+            <g id="Group-10" transform="translate(14.000000, 23.000000)">
+                <mask id="mask-6" fill="white">
+                    <use xlink:href="#path-5"></use>
+                </mask>
+                <g id="Clip-9"></g>
+                <polygon id="Fill-8" fill="#3DA751" mask="url(#mask-6)" points="0.94 8.08 14.98 8.08 14.98 0.64 0.94 0.64"></polygon>
+            </g>
+            <g id="Group-13" transform="translate(14.000000, 17.000000)">
+                <mask id="mask-8" fill="white">
+                    <use xlink:href="#path-7"></use>
+                </mask>
+                <g id="Clip-12"></g>
+                <polygon id="Fill-11" fill="#FDB900" mask="url(#mask-8)" points="-0.02 9.16 4.06 9.16 4.06 0.88 -0.02 0.88"></polygon>
+            </g>
+            <g id="Group-16" transform="translate(14.000000, 13.000000)">
+                <mask id="mask-10" fill="white">
+                    <use xlink:href="#path-9"></use>
+                </mask>
+                <g id="Clip-15"></g>
+                <polygon id="Fill-14" fill="#EA3E36" mask="url(#mask-10)" points="0.94 7.4 15.1 7.4 15.1 -0.04 0.94 -0.04"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

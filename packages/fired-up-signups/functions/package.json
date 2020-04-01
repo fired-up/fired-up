@@ -1,0 +1,21 @@
+{
+  "name": "fired-up-signups",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "0.19.0",
+    "firebase-admin": "8.2.0",
+    "firebase-functions": "3.0.1",
+    "google-libphonenumber": "3.2.2",
+    "kickbox": "2.0.4",
+    "randomatic": "^3.1.1",
+    "slug": "1.1.0",
+    "xml2js": "0.4.22"
+  }
+}

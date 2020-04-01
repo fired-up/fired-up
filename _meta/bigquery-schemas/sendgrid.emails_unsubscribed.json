@@ -1,0 +1,80 @@
+{
+  "creationTime": "1523575750244",
+  "etag": "piu4v5eNbLVuALwjGQVEjQ==",
+  "id": "fired-up-dev:Sendgrid.emails_unsubscribed",
+  "kind": "bigquery#table",
+  "lastModifiedTime": "1561394853625",
+  "location": "US",
+  "numBytes": "240561444",
+  "numLongTermBytes": "0",
+  "numRows": "2190498",
+  "schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "sg_event_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "trilogy_event_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "email_address",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "event_date",
+        "type": "TIMESTAMP"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "ip",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sg_campaign_name",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "sg_campaign_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "trilogy_email_id",
+        "type": "STRING"
+      },
+      {
+        "mode": "REQUIRED",
+        "name": "type",
+        "type": "STRING"
+      },
+      {
+        "name": "category",
+        "type": "STRING"
+      },
+      {
+        "name": "sg_message_id",
+        "type": "STRING"
+      }
+    ]
+  },
+  "selfLink": "https://www.googleapis.com/bigquery/v2/projects/fired-up-dev/datasets/Sendgrid/tables/emails_unsubscribed",
+  "streamingBuffer": {
+    "estimatedBytes": "7406",
+    "estimatedRows": "36",
+    "oldestEntryTime": "1561394220000"
+  },
+  "tableReference": {
+    "datasetId": "Sendgrid",
+    "projectId": "fired-up-dev",
+    "tableId": "emails_unsubscribed"
+  },
+  "type": "TABLE"
+}

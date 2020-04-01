@@ -1,0 +1,22 @@
+steps:
+  - name: node:10.15.1
+    entrypoint: yarn
+    args: ['--cwd', 'packages/bundler', 'install']
+    waitFor: ['-']
+    id: 'bundler-install'
+  - name: node:10.15.1
+    entrypoint: yarn
+    args: ['--cwd', 'packages/bundler', 'build:prod']
+  - name: gcr.io/cloud-builders/gsutil
+    args: [
+      '-m',
+      '-h',
+      'Cache-Control:public, max-age=60',
+      'cp',
+      '-r',
+      'packages/bundler/dist/.',
+      'gs://firedup-prod-assets'
+    ]
+timeout: '1600s'
+options:
+  machineType: 'N1_HIGHCPU_8'

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.1 (57501) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / icon-check-green</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Icons-/-icon-check-green" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Check-icon">
+            <circle id="Oval" fill="#16B03E" cx="20" cy="20" r="20"></circle>
+            <path d="M30.2834008,16.2924234 L18.6901099,27.8857143 C18.6012724,27.9523424 18.5124349,27.9967611 18.4013881,27.9967611 C18.2903412,27.9967611 18.2015038,27.9523424 18.1126663,27.8857143 L11.3165992,21.0896472 C11.1611336,20.9341816 11.1611336,20.6676692 11.3165992,20.5122036 L14.1149798,17.713823 C14.2704453,17.5583574 14.5369578,17.5583574 14.6924234,17.713823 L18.4013881,21.4449971 L26.9075766,12.9165992 C27.0630422,12.7611336 27.3295547,12.7611336 27.4850202,12.9165992 L30.2834008,15.7149798 C30.4388664,15.8704453 30.4388664,16.1369578 30.2834008,16.2924234 Z" id="check" fill="#FFFFFF"></path>
+        </g>
+    </g>
+</svg>

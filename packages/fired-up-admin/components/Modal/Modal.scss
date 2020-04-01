@@ -1,0 +1,92 @@
+@import '_variables.scss';
+
+.ReactModal__Content {
+  opacity: 0;
+}
+
+.ReactModal__Content--after-open {
+  opacity: 1;
+  transition: opacity 150ms;
+}
+
+.ReactModal__Content--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.close-button-container {
+  cursor: pointer;
+  background: none;
+  border: none;
+  height: 35px;
+  width: 35px;
+
+  svg {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.page-overlay-modal-overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: fixed;
+  top: 0;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: transparentize($color-gray-extra-light, 0.05);
+  overflow-y: scroll;
+}
+
+.page-overlay-modal {
+  position: absolute;
+  top: 0;
+  outline: none;
+  z-index: 100;
+  width: 100%;
+
+  @include media-breakpoint-up(md) {
+    top: 20px;
+    width: 92%;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 100%;
+    top: calc(#{$header-height} / 2);
+  }
+}
+
+.modal-content-container {
+  position: relative;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: $box-border-radius;
+
+  @include media-breakpoint-up(lg) {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 85%;
+  }
+}
+
+.modal-content-close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.modal-content-inner {
+  display: flex;
+  padding: 50px 25px;
+
+  @include media-breakpoint-down(lg) {
+    display: block;
+    padding: 20px 15px;
+  }
+}

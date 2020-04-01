@@ -1,9 +1,9 @@
 {
   "firestore": {
-    "rules": "firestore.rules",
-    "indexes": "firestore.indexes.json"
+    "rules": "firestore.rules"
   },
-  "database": {
-    "rules": "database.rules.json"
+  "functions": {
+    "predeploy":
+      "sh _build/functions-predeploy.sh"
   }
 }

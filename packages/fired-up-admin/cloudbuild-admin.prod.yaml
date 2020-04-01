@@ -1,0 +1,10 @@
+steps:
+- name: node:10.15.1
+  entrypoint: yarn
+  args: ['--cwd', 'packages/fired-up-admin', 'install']
+- name: node:10.15.1
+  entrypoint: yarn
+  args: ['--cwd', 'packages/fired-up-admin', 'build-prod']
+- name: gcr.io/cloud-builders/gcloud
+  args: ['app', 'deploy', 'packages/fired-up-admin/app.yaml']
+timeout: "1600s"
