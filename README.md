@@ -28,6 +28,8 @@ Within the dashboard, you can currently create “forms” which group together 
 
 ### Firebase Functions Deploy
 
+Firebase Functions from the loaded Fired Up plugins will be rolled up together for deployment. 
+
 ### Other Integrations
 
 There are several more vendor-specific plugins to Fired Up in the Tom Steyer integrations repo
@@ -35,7 +37,8 @@ There are several more vendor-specific plugins to Fired Up in the Tom Steyer int
 ## Roadmap
 
 Some features we’d like to implement in future releases of Fired Up
- * A truly modular plugins system that can add additional functionality into the firebase functions deploy, the admin dashboard, and in post-signup actions
+
+* A truly modular plugins system that can add additional functionality into the firebase functions deploy, the admin dashboard, and in post-signup actions
 
 - - - - -
 
